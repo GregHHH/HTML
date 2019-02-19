@@ -13,5 +13,15 @@ input[type=email]
 {
     border: none;
     border-bottom: 2px solid lightgrey;
-    
+}
+
+input:valid:empty
+{
+    background-color: white;
+}
+
+
+input:valid
+{
+    background-color: lightgreen;
 }
