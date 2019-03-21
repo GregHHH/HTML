@@ -1,0 +1,106 @@
+
+
+html{
+	background:#ffffff;
+}
+body{
+	margin:0;
+}
+
+header{
+	width:100%;
+	min-height:50px;
+	float:left;
+	background:#222222;
+	color:e3e3e3;
+}
+
+header nav{
+	float:right;
+	margin-right:20px
+}
+
+header nav ul li {
+	display:inline;
+}
+
+header nav ul li a {
+	text-decoration:none:
+	color #e3e3e3e;
+}
+
+header nav ul li a:hover{
+	color: #ffffff;
+	cursor:pointer;
+}
+
+main{
+	float:left;
+	width:100%;
+	margin-top:50px;
+}
+
+table.cartes{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.cartes tbody tr td img{
+	border:5px solid #fff ;
+	width:100px;
+	height:140px;
+	margin:5px;
+	cursor:pointer;
+	box-shadow:1px 1px 12px #555;
+}
+
+.resultat {
+	margin-top:50px;
+	box-shadow: 1px 1px  12px #555
+	border: 5px solid #fff;
+	width:50%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding : 30px 10px 30px 10px;
+	display:none;
+}
+
+.resultat p {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.resultat p button {
+
+	padding:10px;
+	border-radius:2px;
+	border: 1px solid #e0dede
+	cursor:pointer;
+	width:150px;
+	color:#747373;
+}
+
+
+.button {
+	border:0;
+  	background: none;
+  	display: block;
+  	margin: 20px auto;
+  	text-align: center;
+  	border: 2px solid #3498db;
+  	padding: 14px 10px;
+  	width: 200px;
+  	outline: none;
+  	color: white;
+  	border-radius: 24px;
+  	transition: 0.25s;
+}
+
+.button:hover {
+	width: 200px;
+  border-color: #2ecc71;
+}
+
+a.button {
+text-decoration: none;
+}
